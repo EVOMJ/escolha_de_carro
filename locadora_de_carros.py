@@ -1,3 +1,4 @@
+
 def trancos( ):
      print('-' * 50)
 
@@ -39,15 +40,15 @@ este_carro =int(input("digite o carro que desejar alugar:"))
 
 match  este_carro:
      case 1:
-      print(' BMW,boa ideia ele é 1.6 thp - R$ 3M')
+      print(f' BMW,boa ideia {nome} ele é 1.6 thp  - R$ 3M')
      case 2:
-      print('MUSTANG,boa ideia ele é 1.6 ecoboost - R$ 6M')
+      print(f'MUSTANG,boa ideia {nome}  ele é 1.6 ecoboost  - R$ 6M')
      case 3:
-      print(' BH20,boa ideia ele é 1.6 thp - R$ 200k')
+      print(f' BH20,boa ideia {nome} ele é 1.6 thp  - R$ 200k')
      case 4:
-      print('FUSCA,boa ideia ele é 1.6 ecoboost - R$ 12k')
+      print(f'FUSCA,boa ideia {nome}  ele é 1.6 ecoboost  - R$ 12k')
      case 5:
-      print('CIVIC,boa ideia ele é 1.6 ecoboost - R$ 500k')
+      print(f'CIVIC,boa ideia {nome} ele é 1.6 ecoboost - R$ 500k')
      case 0:
       print("saindo do programa...")
      case _:
@@ -55,4 +56,5 @@ match  este_carro:
 
 
 trancos()
+
 
